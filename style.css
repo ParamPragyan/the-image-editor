@@ -200,3 +200,9 @@ body h2 {
     margin-left: 0px;
   }
 }
+
+@media (max-width: 385px) {
+  body h2 {
+    font-size: 1.8rem;
+  }
+}
