@@ -1,5 +1,5 @@
-/* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900& diplay=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 
 * {
   margin: 0;
@@ -10,6 +10,7 @@
 body {
   display: flex;
   padding: 10px;
+
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -32,14 +33,15 @@ body {
   opacity: 0.5;
   pointer-events: none;
 }
-.container h2 {
+body h2 {
   margin-top: -8px;
 
   font-weight: 500;
-  font-family: "Luckiest Guy";
-  font-size: 25px;
+
+  font-size: 2.2rem;
   color: #ffffff;
-  text-shadow: 2px 2px 2px #ce5937;
+  text-shadow: 5px 5px 5px #ff00c3;
+  font-family: "Syne Mono", monospace;
 }
 .container .wrapper {
   display: flex;
@@ -81,15 +83,15 @@ body {
   width: calc(100% / 2 - 4px);
 }
 .editor-panel button:hover {
-  background: #d01515;
+  background: #000000;
 }
 .editor-panel {
   background-color: rgba(12, 12, 12, 0.75);
 }
 .filter button.active {
   color: #fff;
-  border-color: #e03f05;
-  background: #e03f05;
+  border-color: #545f81;
+  background: #053ce0;
 }
 .filter .slider {
   margin-top: 12px;
@@ -103,7 +105,7 @@ body {
 .filter .slider input {
   width: 100%;
   height: 5px;
-  accent-color: #e03f05;
+  accent-color: #053ce0;
 }
 .editor-panel .rotate {
   margin-top: 17px;
